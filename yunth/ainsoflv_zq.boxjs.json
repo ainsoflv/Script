@@ -26,7 +26,7 @@
       }
     ],
     "repo": "https://github.com/ainsoflv/script/blob/main/yunth/youth.js",
-    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
+    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png","https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
     "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youth.js"
   },{
     "id": "youthZDRead",
@@ -57,7 +57,7 @@
       }
     ],
     "repo": "https://github.com/ainsoflv/script/blob/main/yunth/youthRead.js",
-    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
+    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png","https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
     "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youthRead.js"
   } ]
 }
