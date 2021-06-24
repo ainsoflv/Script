@@ -41,7 +41,7 @@ QX 1.0. 7+ :
 
 #
 [rewrite_remote]
-https://raw.githubusercontent.com/ainsoflv/script/main/youth_getCookie.conf, tag=中青GetCookie, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youth_getCookie.conf, tag=中青GetCookie, update-interval=86400, opt-parser=false, enabled=true
 
 */
 
