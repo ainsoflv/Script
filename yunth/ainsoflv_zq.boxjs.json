@@ -2,7 +2,7 @@
   "id": "ainsoflv.app.sub",
   "name": "中青应用订阅",
   "author": "@ainsoflv",
-  "icon": "",
+  "icon": "https://raw.githubusercontent.com/ainsoflv/private/master/photo.jpg?token=AJIYT5SJGEBEVXFGB4D6MQDA2PPR2",
   "repo": "https://github.com/ainsoflv/script",
   "apps": [{
     "id": "youthQD",
@@ -25,7 +25,7 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
-    "repo": "https://github.com/ainsoflv/script/main/yunth/youth.js",
+    "repo": "https://github.com/ainsoflv/script/blob/main/yunth/youth.js",
     "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
     "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youth.js"
   },{
@@ -56,8 +56,8 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
-    "repo": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youthRead.js",
-    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
+    "repo": "https://github.com/ainsoflv/script/blob/main/yunth/youthRead.js",
+    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
     "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youthRead.js"
   } ]
 }
