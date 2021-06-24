@@ -21,6 +21,10 @@ https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/Youth_c
 
 # 中青body获取
 https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/Youth_Read.conf, tag=中青body获取, update-interval=86400, opt-parser=false, enabled=true
+
+# 中青看点浏览赚&看看赚Cookie(打开资源解析器)
+https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/rewrite-zqkkz.plugin, tag=中青看点看看赚&浏览赚Cookie获取, update-interval=86400, opt-parser=true, enabled=false
+
 ----------
 
 2️⃣第二步：添加定时任务
