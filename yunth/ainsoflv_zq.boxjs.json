@@ -25,8 +25,8 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
-    "repo": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youth.js",
-    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
+    "repo": "https://github.com/ainsoflv/script/main/yunth/youth.js",
+    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
     "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youth.js"
   },{
     "id": "youthZDRead",
