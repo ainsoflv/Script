@@ -7,7 +7,7 @@
 hostname =  ios.baertt.com
 
 圈X。其他软件请自行添加。获取大约200个Boy，删除重写
-https://ios.baertt.com/v5/article/complete.json url script-request-body https://raw.githubusercontent.com/ainsoflv/script/main/youthRead.js
+https://ios.baertt.com/v5/article/complete.json url script-request-body https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youthRead.js
 
 
 */
