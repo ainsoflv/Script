@@ -2,13 +2,13 @@
   "id": "ainsoflv.app.sub",
   "name": "中青应用订阅",
   "author": "@ainsoflv",
-  "icon": "",
+  "icon": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png",
   "repo": "https://github.com/ainsoflv/script",
   "apps": [{
-    "id": "youthQD",
+    "id": "youth",
     "name": "中青多账号签到+转盘抽奖",
-    "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq","youthheader_zq2", "read_zq2", "red_zq2", "readtime_zq2","youthheader_zq3", "read_zq3", "red_zq3", "readtime_zq3"],
-    "author": "@jiuli",
+    "keys": ["zq_nick","youthheader_zq","read_zq","red_zq","readtime_zq","youthheader_zq2","read_zq2","red_zq2","readtime_zq2","youthheader_zq3","read_zq3","red_zq3","readtime_zq3"],
+    "author": "@ainsoflv",
     "settings": [
       {
         "id": "zqSuffix",
@@ -25,14 +25,24 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
-    "repo": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youth.js",
-    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
-    "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youth.js"
-  },{
+    "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youth.js",
+    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"],
+    "script": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.js"
+  },
+  {
+      "author": "@ainsoflv", 
+      "keys": ["youth_start", "youth_look"], 
+      "id": "youthGain", 
+      "name": "中青浏览赚&看看赚", 
+      "script": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth_gain.js", 
+      "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youth_gain.js", 
+      "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"]
+  }, 
+  {
     "id": "youthZDRead",
     "name": "中青多账号阅读",
     "keys": ["zqgetbody_body","index","zqgetbody_body2","index2","zqgetbody_body3","index3"],
-    "author": "@jiuli",
+    "author": "@ainsoflv",
     "settings": [
        {
           "id": "zqReadLog",
@@ -56,8 +66,8 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
-    "repo": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youthRead.js",
-    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
-    "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youthRead.js"
+    "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youthyouthRead.js",
+    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"],
+    "script": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youthRead.js"
   } ]
 }
