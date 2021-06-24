@@ -5,10 +5,10 @@
   "icon": "https://raw.githubusercontent.com/ainsoflv/private/master/photo.jpg?token=AJIYT5SJGEBEVXFGB4D6MQDA2PPR2",
   "repo": "https://github.com/ainsoflv/script",
   "apps": [{
-    "id": "youthQD",
+    "id": "youth",
     "name": "中青多账号签到+转盘抽奖",
     "keys": ["zq_nick","youthheader_zq","read_zq","red_zq","readtime_zq","youthheader_zq2","read_zq2","red_zq2","readtime_zq2","youthheader_zq3","read_zq3","red_zq3","readtime_zq3"],
-    "author": "@jiuli",
+    "author": "@ainsoflv",
     "settings": [
       {
         "id": "zqSuffix",
@@ -32,7 +32,7 @@
     "id": "youthZDRead",
     "name": "中青多账号阅读",
     "keys": ["zqgetbody_body","index","zqgetbody_body2","index2","zqgetbody_body3","index3"],
-    "author": "@jiuli",
+    "author": "@ainsoflv",
     "settings": [
        {
           "id": "zqReadLog",
