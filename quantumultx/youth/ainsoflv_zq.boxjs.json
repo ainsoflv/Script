@@ -6,151 +6,151 @@
  "icon": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png",
  "apps": 
 	[
-        {
-         "id": "youth",
-         "name": "中青多账号签到+转盘抽奖",
-         "author": "@ainsoflv",
-         "script": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.js",
-         "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youth.js",
-         "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"],
-         "keys":["zq_nick","youthheader_zq","read_zq","red_zq","readtime_zq","cashurl_zq","cashbody_zq","zqcash","zqcard","youthheader_zq2","read_zq2","red_zq2","readtime_zq2","yout hheader_zq3","read_zq3","red_zq3","readtime_zq3"],
-         "settings": 
-            [
-                {
-                 "id": "zqSuffix",
-                 "name": "当前账号",
-                 "val": "1",
-                 "type": "number",
-                 "desc": "当前抓取ck记录的账号序号，如：1、2、3目前仅支持3账号"
-                },
-                {
-                 "id": "zqCount",
-                 "name": "账号个数",
-                 "val": "1",
-                 "type": "number",
-                 "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                },
-                {
-                 "id": "zqcard", 
-                 "val": "false", 
-                 "name": "打卡赚钱", 
-                 "type": "boolean", 
-                 "desc": "每日打卡报名及早起打卡"
-                }, 
-                {
-                 "id": "zqtime", 
-                 "val": "05", 
-                 "name": "打卡时间", 
-                 "type": "number", 
-                 "desc": "每日早起打卡时间"
-                }, 
-                {
-                 "id": "delay_rotary_zq", 
-                 "val": "10", 
-                 "name": "转盘时间间隔", 
-                 "type": "number", 
-                 "desc": "间隔时间设置，如1秒填1即可"
-                }, 
-                {
-                 "id": "notifytimes", 
-                 "val": "", 
-                 "name": "通知频率 (点击查看设置说明)", 
-                 "type": "number", 
-                 "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
-                }, 
-                {
-                 "id": "zqcash", 
-                 "val": "30", 
-                 "name": "提现金额", 
-                 "type": "radios", 
-                 "desc": "自动提现金额需和获取提现请求保持一致", 
-                 "items": 
-                        [
-                                {
-                                 "key": "10", 
-                                 "label": "10元"
-                                }, 
-                                {
-                                 "key": "30", 
-                                "label": "30元"
-                                }, 
-                                {
-                                 "key": "100", 
-                                "label": "100元"
-                                }
-                        ]
-                }
-            ]
-        },
-        {
-         "id": "youthGain", 
-         "name": "中青浏览赚&看看赚",
-         "author": "@ainsoflv", 
-         "script": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth_gain.js", 
-         "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youth_gain.js", 
-         "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"], 
-         "keys": ["youth_start", "youth_look"]
-        }, 
-        {
-         "id": "youthZDRead",
-         "name": "中青多账号阅读",
- 	     "author": "@ainsoflv",
-	     "script": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youthRead.js",
-    	 "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youthyouthRead.js",
-    	 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"],
-         "keys": ["zqgetbody_body","index","zqbody_index","zqgetbody_body2","index2","zqbody_index2","zqgetbody_body3","index3","zqbody_index2"], 
-         "settings": 
-	        [
-                {
-                 "id": "zqReadLog",
-                 "name": "通知",
-                 "val": false,
-                 "type": "boolean",
-                 "desc": "通知开关，30秒一次,较频繁！建议关闭。"
-                },
-                {
-                 "id": "zqReadSuffix",
-                 "name": "当前账号",
-                 "val": "1",
-                 "type": "number",
-                 "desc": "当前抓取ck记录的账号序号，如：1、2、3目前仅支持3账号"
-                },
-                {
-                 "id": "zqReadCount",
-                 "name": "账号个数",
-                 "val": "1",
-                 "type": "number",
-                 "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                }
-            ]
-        
-        },
 		{
-         "id": "sy_youth_read",
-         "name": "中青自动阅读",
-         "author": "@syzzzf",
-         "repo": "https://github.com/songyangzz/QuantumultX/blob/master/YOUTH_READ.js",
-         "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"],
-         "keys": ["zqgetbody_body","zqgetbody_body1"],
-         "settings": 
-	        [
-		 	    {
-         	     "id": "YOUNTH_READ_Notify",
-         	     "name": "静默运行",
-        	     "val": true,
-         	     "type": "boolean",
-           	     "desc": "运行脚本时不发出系统弹窗通知"
-         	    },
-	    	 	{
-	     		 "id": "zqgetbody_body",
-	     		 "name": "请求body",
-	    	 	 "val": "",
-	    		 "type": "textarea",
-	    		 "autoGrow": false,
-	    		 "rows": 1,
-	    	     "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-			    },
-	    	 	{
+		 "id": "youth",
+		 "name": "中青多账号签到+转盘抽奖",
+		 "author": "@ainsoflv",
+		 "script": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.js",
+		 "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youth.js",
+		 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"],
+		 "keys":["zq_nick","youthheader_zq","read_zq","red_zq","readtime_zq","cashurl_zq","cashbody_zq","zqcash","zqcard","youthheader_zq2","read_zq2","red_zq2","readtime_zq2","yout hheader_zq3","read_zq3","red_zq3","readtime_zq3"],
+		 "settings": 
+			[
+				{
+				 "id": "zqSuffix",
+				 "name": "当前账号",
+				 "val": "1",
+				 "type": "number",
+				 "desc": "当前抓取ck记录的账号序号，如：1、2、3目前仅支持3账号"
+				},
+				{
+				 "id": "zqCount",
+				 "name": "账号个数",
+				 "val": "1",
+				 "type": "number",
+				"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+				},
+				{
+				 "id": "zqcard", 
+				 "val": "false", 
+				 "name": "打卡赚钱", 
+				 "type": "boolean", 
+				 "desc": "每日打卡报名及早起打卡"
+				}, 
+				{
+				 "id": "zqtime", 
+				 "val": "05", 
+				 "name": "打卡时间", 
+				 "type": "number", 
+				 "desc": "每日早起打卡时间"
+				}, 
+				{
+				 "id": "delay_rotary_zq", 
+				 "val": "10", 
+				 "name": "转盘时间间隔", 
+				 "type": "number", 
+				 "desc": "间隔时间设置，如1秒填1即可"
+				}, 
+				{
+				 "id": "notifytimes", 
+				 "val": "", 
+				 "name": "通知频率 (点击查看设置说明)", 
+				 "type": "number", 
+				 "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+				}, 
+				{
+				 "id": "zqcash", 
+				 "val": "30", 
+				 "name": "提现金额", 
+				 "type": "radios", 
+				 "desc": "自动提现金额需和获取提现请求保持一致", 
+				 "items": 
+						[
+								{
+								 "key": "10", 
+								 "label": "10元"
+								}, 
+								{
+								 "key": "30", 
+								"label": "30元"
+								}, 
+								{
+								 "key": "100", 
+								 "label": "100元"
+								}
+						]
+				}
+			]
+		},
+		{
+		 "id": "youthGain", 
+		 "name": "中青浏览赚&看看赚",
+		 "author": "@ainsoflv", 
+		 "script": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth_gain.js", 
+		 "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youth_gain.js", 
+		 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"], 
+		 "keys": ["youth_start", "youth_look"]
+		}, 
+		{
+		 "id": "youthZDRead",
+		 "name": "中青多账号阅读",
+		 "author": "@ainsoflv",
+		 "script": "https://github.com/ainsoflv/script/blob/main/quantumultx/youth/youthRead.js",
+		 "repo": "https://github.com/ainsoflv/script/blob/main/quantumultx/youthyouthRead.js",
+		 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"],
+		 "keys": ["zqgetbody_body","index","zqbody_index","zqgetbody_body2","index2","zqbody_index2","zqgetbody_body3","index3","zqbody_index2"], 
+		 "settings": 
+			[
+				{
+				 "id": "zqReadLog",
+				 "name": "通知",
+				 "val": false,
+				 "type": "boolean",
+				 "desc": "通知开关，30秒一次,较频繁！建议关闭。"
+				},
+				{
+				 "id": "zqReadSuffix",
+				 "name": "当前账号",
+				 "val": "1",
+				 "type": "number",
+				 "desc": "当前抓取ck记录的账号序号，如：1、2、3目前仅支持3账号"
+				},
+				{
+				 "id": "zqReadCount",
+				 "name": "账号个数",
+				 "val": "1",
+				 "type": "number",
+				 "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+				}
+			]
+		
+		},
+		{
+		 "id": "sy_youth_read",
+		 "name": "中青自动阅读",
+		 "author": "@syzzzf",
+		 "repo": "https://github.com/songyangzz/QuantumultX/blob/master/YOUTH_READ.js",
+		 "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"],
+		 "keys": ["zqgetbody_body","zqgetbody_body1"],
+		 "settings": 
+			[
+				{
+				 "id": "YOUNTH_READ_Notify",
+				 "name": "静默运行",
+				 "val": true,
+				 "type": "boolean",
+				 "desc": "运行脚本时不发出系统弹窗通知"
+				},
+				{
+				 "id": "zqgetbody_body",
+				 "name": "请求body",
+				 "val": "",
+				 "type": "textarea",
+				 "autoGrow": false,
+				 "rows": 1,
+				 "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+				},
+				{
 				 "id": "zqgetbody_body1",
 				 "name": "请求body",
 				 "val": "",
@@ -177,7 +177,7 @@
 				 "rows": 1,
 				 "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
 				}
-	        ]
-        }
+			]
+		}
 	]
 }
