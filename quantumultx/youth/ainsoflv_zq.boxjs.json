@@ -144,9 +144,9 @@
 				 "rows": 9,
 				 "val": "[\n  {\n    \"cookie\": \"此处填写账号1 Cookie\"\n  },\n  {\n    \"cookie\": \"此处填写账号2 Cookie\",\n    \"jrBody\": \"此处填写账号2 钢镚Body\"\n  }\n]",
 				 "placeholder": "[ {\"cookie\": \"kuaishou.api_st=xxx;\"}  ]",
-				 "desc": "Cookie列表, 如需修改请严格按照JSON格式填写; "
+				 "desc": "Cookie列表, 如需修改请严格按照JSON格式填写."
 				 }
-			],
+			]
 		}
 	]
 }
