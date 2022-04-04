@@ -132,7 +132,21 @@
 		 "script": "https://raw.githubusercontents.com/leafxcy/JavaScript/main/ksjsb.js", 
 		 "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js", 
 		 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"], 
-		 "keys": ["ksjsbCookie", "ksjsbWithdrawTime", "ksjsbNotify"]
+		 "keys": ["ksjsbCookie"],
+		 "settings": 
+			[
+				{
+				 "id": "ksjsbCookie",
+				 "name": "Cookie列表",
+				 "val": "",
+				 "type": "textarea",
+				 "autoGrow": false,
+				 "rows": 9,
+				 "val": "[\n  {\n    \"cookie\": \"此处填写账号1 Cookie\"\n  },\n  {\n    \"cookie\": \"此处填写账号2 Cookie\",\n    \"jrBody\": \"此处填写账号2 钢镚Body\"\n  }\n]",
+				 "placeholder": "[ {\"cookie\": \"kuaishou.api_st=xxx;\"}  ]",
+				 "desc": "Cookie列表, 如需修改请严格按照JSON格式填写; "
+				 }
+			],
 		}
 	]
 }
