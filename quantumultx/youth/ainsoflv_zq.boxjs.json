@@ -132,7 +132,7 @@
 		 "script": "https://raw.githubusercontents.com/leafxcy/JavaScript/main/ksjsb.js", 
 		 "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js", 
 		 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"], 
-		 "keys": ["ksjsbCookie"]
+		 "keys": ["ksjsbCookie", "ksjsbWithdrawTime", "ksjsbNotify"]
 		}
 	]
 }
