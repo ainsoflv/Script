@@ -159,13 +159,24 @@
 		 "settings": 
 			[
 				{
-				 "id": "nobyda_52pojie",
-				 "name": "Cookie列表",
+				 "id": "CookieWA",
+				 "name": "CookieWA",
 				 "val": "",
 				 "type": "textarea",
 				 "autoGrow": false,
 				 "rows": 9,
 				 "val": "CookieWA",
+				 "placeholder": "[ {\"cookie\": \"kuaishou.api_st=xxx;\"}  ]",
+				 "desc": "Cookie列表, 如需修改请严格按照JSON格式填写."
+				 },
+				{
+				 "id": "nobyda_52pojie",
+				 "name": "nobyda_52pojie",
+				 "val": "",
+				 "type": "textarea",
+				 "autoGrow": false,
+				 "rows": 9,
+				 "val": "nobyda_52pojie",
 				 "placeholder": "[ {\"cookie\": \"kuaishou.api_st=xxx;\"}  ]",
 				 "desc": "Cookie列表, 如需修改请严格按照JSON格式填写."
 				 }
