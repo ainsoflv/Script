@@ -149,8 +149,8 @@
 			]
 		}, 
 		{
-		 "id": "52pojieCookie", 
-		 "name": "52pojieCookie",
+		 "id": "52pojie", 
+		 "name": "52pojie",
 		 "author": "@ainsoflv", 
 		 "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js", 
 		 "repo": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js", 
@@ -159,7 +159,7 @@
 		 "settings": 
 			[
 				{
-				 "id": "52pojieCookie",
+				 "id": "52pojie",
 				 "name": "Cookie列表",
 				 "val": "",
 				 "type": "textarea",
