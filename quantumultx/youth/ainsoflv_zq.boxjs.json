@@ -155,7 +155,7 @@
 		 "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js", 
 		 "repo": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js", 
 		 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"], 
-		 "keys": ["COOKIE", "date", "Cookie", "cookie", "TIME"],
+		 "keys": ["COOKIE", "date", "Cookie", "cookie", "TIME", "CookieWA", "nobyda_52pojie", "reqData", "barkKey"],
 		 "settings": 
 			[
 				{
