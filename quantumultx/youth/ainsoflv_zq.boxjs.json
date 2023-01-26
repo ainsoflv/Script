@@ -1,6 +1,6 @@
 {
  "id": "ainsoflv.app.sub",
- "name": "中青应用订阅",
+ "name": "ainsoflv订阅",
  "author": "@ainsoflv",
  "repo": "https://github.com/ainsoflv/script",
  "icon": "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png",
@@ -137,6 +137,29 @@
 			[
 				{
 				 "id": "ksjsbCookie",
+				 "name": "Cookie列表",
+				 "val": "",
+				 "type": "textarea",
+				 "autoGrow": false,
+				 "rows": 9,
+				 "val": "[\n  {\n    \"cookie\": \"此处填写账号1 Cookie\"\n  },\n  {\n    \"cookie\": \"此处填写账号2 Cookie\",\n    \"jrBody\": \"此处填写账号2 钢镚Body\"\n  }\n]",
+				 "placeholder": "[ {\"cookie\": \"kuaishou.api_st=xxx;\"}  ]",
+				 "desc": "Cookie列表, 如需修改请严格按照JSON格式填写."
+				 }
+			]
+		}, 
+		{
+		 "id": "52pojieCookie", 
+		 "name": "52pojieCookie",
+		 "author": "@ainsoflv", 
+		 "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js", 
+		 "repo": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js", 
+		 "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/quantumultx/youth/youth.png"], 
+		 "keys": ["Cookie"],
+		 "settings": 
+			[
+				{
+				 "id": "52pojieCookie",
 				 "name": "Cookie列表",
 				 "val": "",
 				 "type": "textarea",
